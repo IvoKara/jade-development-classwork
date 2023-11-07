@@ -10,7 +10,7 @@ All tasks for a given exercise are done in a separate project in order to mainta
 ...
 
 ## Steps to reproduce
-In order to use the provided `jade-quickstart-archetype` you will need to
+In order to use the provided `jade-archetype-quickstart` you will need to
 add it to the local maven archetype set. 
 
 To do this an `install.sh` script is created for convenience. 
