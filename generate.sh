@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 mvn archetype:generate                              \
   -DarchetypeGroupId=com.archetype.jade             \
