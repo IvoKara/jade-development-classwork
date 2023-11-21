@@ -7,7 +7,6 @@ import jade.lang.acl.MessageTemplate;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Scanner;
 
 import restaurant.meals.CookRecipe;
 import restaurant.meals.Ingredient;
@@ -57,6 +56,8 @@ public class MealAgent extends Agent {
 
 		@Override
 		public void action() {
+			doWait();
+
 			ACLMessage message = myAgent.receive(mt);
 
 			if (message == null) {
