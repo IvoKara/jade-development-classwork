@@ -1,4 +1,4 @@
-package restaurant.meals;
+package com.abt.ex5.meals;
 
 public class Ingredient {
 	private String measure;

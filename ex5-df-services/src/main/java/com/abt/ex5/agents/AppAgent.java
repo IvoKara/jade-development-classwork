@@ -1,4 +1,4 @@
-package com.abt.ex5;
+package com.abt.ex5.agents;
 
 import jade.core.Agent;
 import jade.domain.DFService;

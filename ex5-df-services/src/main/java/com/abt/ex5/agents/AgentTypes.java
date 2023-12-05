@@ -1,4 +1,4 @@
-package restaurant.meals;
+package com.abt.ex5.agents;
 
 public class AgentTypes {
     public final static String RECIPE_FOUNDER = "recipeFounder";

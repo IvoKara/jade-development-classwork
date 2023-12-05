@@ -1,4 +1,4 @@
-package restaurant.meals;
+package com.abt.ex5.meals;
 
 import java.util.ArrayList;
 import java.util.Arrays;

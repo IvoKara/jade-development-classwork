@@ -1,4 +1,4 @@
-package com.abt.ex5;
+package com.abt.ex5.agents;
 
 import jade.core.Agent;
 import jade.domain.DFService;
@@ -9,7 +9,7 @@ public class OtherAgent extends Agent {
 
     @Override
     protected void setup() {
-        ServiceDescription serviceDescription = new ServiceDescription();
+
         serviceDescription.setType("buyer");
 
         DFAgentDescription dfDescription = new DFAgentDescription();
