@@ -6,7 +6,7 @@ import jade.domain.FIPAException;
 import jade.domain.FIPAAgentManagement.DFAgentDescription;
 import jade.domain.FIPAAgentManagement.ServiceDescription;
 
-public class AppAgent extends Agent {
+public class RecipeFounderAgent extends Agent {
 
     @Override
     protected void setup() {

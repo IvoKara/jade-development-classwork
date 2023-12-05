@@ -5,7 +5,7 @@ import jade.domain.DFService;
 import jade.domain.FIPAAgentManagement.DFAgentDescription;
 import jade.domain.FIPAAgentManagement.ServiceDescription;
 
-public class OtherAgent extends Agent {
+public class WaiterAgent extends Agent {
 
     @Override
     protected void setup() {
