@@ -10,10 +10,8 @@ public class AppAgent extends Agent {
 
     @Override
     protected void setup() {
-        System.out.println("Hello world! My name is " + this.getLocalName() + ".");
-
         ServiceDescription serviceDescription = new ServiceDescription();
-        serviceDescription.setType("buyer");
+        serviceDescription.setType(AgentTypes.RECIPE_FOUNDER);
         serviceDescription.setName(this.getLocalName());
 
         DFAgentDescription dfDescription = new DFAgentDescription();
@@ -25,6 +23,12 @@ public class AppAgent extends Agent {
         } catch (FIPAException fe) {
             fe.printStackTrace();
         }
+
+        // this.registerDFService();
+    }
+
+    private void registerDFService() {
+
     }
 
     @Override

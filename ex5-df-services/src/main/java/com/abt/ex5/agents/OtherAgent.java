@@ -9,8 +9,8 @@ public class OtherAgent extends Agent {
 
     @Override
     protected void setup() {
-
-        serviceDescription.setType("buyer");
+        ServiceDescription serviceDescription = new ServiceDescription();
+        serviceDescription.setType(AgentTypes.RECIPE_FOUNDER);
 
         DFAgentDescription dfDescription = new DFAgentDescription();
         dfDescription.addServices(serviceDescription);
